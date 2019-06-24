@@ -1,0 +1,104 @@
+<templateSet group="Liquid">
+  <template name="comment" value="{% comment %}&#10;$content$&#10;{% endcomment %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="for" value="{%- for $el$ in $els$ -%}&#10;{{ $el$ }}&#10;{%- endfor -%}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="els" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="unless" value="{% unless $el$ %}&#10;{{ $el$ }}&#10;{% endunless %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="if" value="{% if $el$ %}&#10;{{ $el$ }}&#10;{% endif %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="assign" value="{% assign $var$ = $el$ %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="capture" value="{%- capture $el$ -%}&#10;{{ $el$ }}&#10;{%- endcapture -%}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="a" value="&lt;a href=&quot;$link$&quot; title=&quot;$title$&quot; class=&quot;$class$&quot;&gt;$content$&lt;/a&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="link" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="includebutton" value="{%- assign buttonUrl = section.settings.buttonUrl -%}&#10;    {%- assign buttonText = section.settings.buttonTitle -%}&#10;    {%- assign buttonClasses = '' -%}&#10;    {% include 'button' %}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="img" value="&lt;img src=&quot;&quot; class=&quot;&quot; title=&quot;&quot;&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="includemodalstandard" value="{%- assign modalData = 'c-modal--homeLearn' -%}&#10;  {%- assign modalImage = section.settings.modalImage | img_url: '300x300' -%}&#10;  {%- assign modalTitle = section.settings.modalTitle -%}&#10;  {%- assign modalDescription = section.settings.modalContent -%}&#10;  {%- assign modalButtonUrl = section.settings.modalButtonUrl -%}&#10;  {%- assign modalButtonTitle = section.settings.modalButtonTitle -%}&#10;  {% include 'modal-standard' %}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="include" value="{% include '$snippet$' %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="snippet" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="quick" value="{% assign $title$ = '$title$' | append: i %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="initsection" value="&lt;section class=&quot;c-$class$&quot;&gt;&#10;  &lt;div class=&quot;c-$class$__inner&quot;&gt;&#10;    $next$&#10;  &lt;/div&gt;&#10;&lt;/section&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="next" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="case" value="{% case $case$ %}&#10;  {% when '$case1$' %}&#10;  {% when '$case2$' %}&#10;  {% when '$case3$' %}&#10;  {% else %}&#10;{% endcase %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="case" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="paginate" value="{% paginate $element$ by $number$ %}&#10;{% endpaginate %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="element" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="number" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="else" value="{% else %}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>

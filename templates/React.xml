@@ -1,0 +1,9 @@
+<templateSet group="React">
+  <template name="reactempty" value="import React from &quot;react&quot;&#10;import styled from &quot;@emotion/styled&quot;&#10;import { css } from '@emotion/core'&#10;&#10;const $object$ = styled.section`&#10;$css$&#10;`&#10;&#10;export default $object$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="css" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

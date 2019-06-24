@@ -1,0 +1,29 @@
+<templateSet group="[JS] Imports">
+  <template name="importhelp" value="import defaultExport from &quot;module-name&quot;;&#10;import * as name from &quot;module-name&quot;;&#10;import { export } from &quot;module-name&quot;;&#10;import { export as alias } from &quot;module-name&quot;;&#10;import { export1 , export2 } from &quot;module-name&quot;;&#10;import { foo , bar } from &quot;module-name/path/to/specific/un-exported/file&quot;;&#10;import { export1 , export2 as alias2 , [...] } from &quot;module-name&quot;;&#10;import defaultExport, { export [ , [...] ] } from &quot;module-name&quot;;&#10;import defaultExport, * as name from &quot;module-name&quot;;&#10;import &quot;module-name&quot;;&#10;var promise = import(&quot;module-name&quot;); // This is a stage 3 proposal." description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="importfunction" value="import { $function$ } from &quot;$path$&quot;;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="importfunctionas" value="import { $function$ as $name$ } from &quot;$path$&quot;;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="importdefault" value="import $default$ from &quot;$path$&quot;;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="default" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

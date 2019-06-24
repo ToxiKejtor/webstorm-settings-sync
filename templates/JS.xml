@@ -1,0 +1,42 @@
+<templateSet group="JS">
+  <template name="log" value="console.log('$content$')" description="console log" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lint" value="/* eslint-disable */&#10;$content$&#10;/* eslint-enable */" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="initclass" value="import { getElement, getElements } from '../utils/functional'&#10;&#10;export default class $name$ {&#10;  constructor (el) {&#10;    this.selectors = {&#10;      el,&#10;      openers: '[data-modal-open]',&#10;    }&#10;    this.data = {&#10;      opener: 'data-modal-open',&#10;    }&#10;    this.init();&#10;  }&#10;  init() {&#10;    &#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="initflickity" value=" const flkty = new Flickity(el, {&#10;  cellAlign: 'center',&#10;  contain: true,&#10;  imagesLoaded: true,&#10;  wrapAround: true,&#10;  watchCSS: true&#10; })" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="importhelp" value="import defaultExport from &quot;module-name&quot;;&#10;import * as name from &quot;module-name&quot;;&#10;import { export } from &quot;module-name&quot;;&#10;import { export as alias } from &quot;module-name&quot;;&#10;import { export1 , export2 } from &quot;module-name&quot;;&#10;import { foo , bar } from &quot;module-name/path/to/specific/un-exported/file&quot;;&#10;import { export1 , export2 as alias2 , [...] } from &quot;module-name&quot;;&#10;import defaultExport, { export [ , [...] ] } from &quot;module-name&quot;;&#10;import defaultExport, * as name from &quot;module-name&quot;;&#10;import &quot;module-name&quot;;&#10;var promise = import(&quot;module-name&quot;); // This is a stage 3 proposal.&#10;import {fileName, folderName} from './'; // new proposal unsure where to request this change" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for (let i = 0; i &lt; 5; i++) {&#10;  $content$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mqmedium" value="${mq.medium(`&#10;  $content$&#10;`)};" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

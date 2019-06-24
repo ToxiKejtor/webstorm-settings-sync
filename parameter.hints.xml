@@ -1,0 +1,10 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="JavaScript" />
+      <blacklist language="ECMAScript 6">
+        <added pattern="getElement(selector,{ context = document })" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
