@@ -5,4 +5,9 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="vueexample" value="you can delete this one" description="delete this one" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
