@@ -14,9 +14,7 @@
     <keyboard-shortcut first-keystroke="shift meta 9" />
   </action>
   <action id="AddToFavoritesPopup" />
-  <action id="AutoIndentLines">
-    <keyboard-shortcut first-keystroke="meta back_slash" />
-  </action>
+  <action id="AutoIndentLines" />
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
