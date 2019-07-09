@@ -51,7 +51,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="img" value="&lt;img src=&quot;&quot; class=&quot;&quot; title=&quot;&quot;&gt;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="img" value="&lt;img src=&quot;&quot; class=&quot;&quot; alt=&quot;&quot;&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
