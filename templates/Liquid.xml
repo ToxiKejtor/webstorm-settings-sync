@@ -101,4 +101,10 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="render" value="{% render '$snippet$' %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="snippet" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
