@@ -107,4 +107,10 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="increment" value="{% increment $var$ %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
