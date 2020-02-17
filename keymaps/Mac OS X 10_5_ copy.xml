@@ -6,7 +6,9 @@
   </action>
   <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow" />
-  <action id="ActivateTerminalToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="shift meta 9" />
   </action>
@@ -113,6 +115,7 @@
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
+  <action id="NextWindow" />
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
