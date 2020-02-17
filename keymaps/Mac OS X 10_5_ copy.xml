@@ -138,6 +138,12 @@
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="meta alt 7" />
   </action>
+  <action id="Terminal.MoveToolWindowTabLeft">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+  <action id="Terminal.MoveToolWindowTabRight">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
   <action id="Vcs.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
