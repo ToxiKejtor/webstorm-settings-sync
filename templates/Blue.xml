@@ -1,0 +1,3 @@
+<templateSet group="Blue">
+  <template name="bluefunction" value="ad" toReformat="false" toShortenFQNames="true" />
+</templateSet>
