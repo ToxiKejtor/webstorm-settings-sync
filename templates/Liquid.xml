@@ -5,26 +5,29 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="for" value="{%- for $el$ in $els$ -%}&#10;{{ $el$ }}&#10;{%- endfor -%}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="for" value="{%- for $el$ in $els$ -%}&#10;  $content$&#10;{%- endfor -%}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="els" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="unless" value="{% unless $el$ %}&#10;{{ $el$ }}&#10;{% endunless %}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="unless" value="{%- unless $el$ -%}&#10;  $content$&#10;{%- endunless -%}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="if" value="{% if $el$ %}&#10;{{ $el$ }}&#10;{% endif %}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="{%- if $el$ -%}&#10;  $content$&#10;{%- endif -%}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="assign" value="{% assign $var$ = $el$ %}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="assign" value="{%- assign $var$ = $el$ -%}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -67,12 +70,6 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="quick" value="{% assign $title$ = '$title$' | append: i %}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Twig" value="true" />
-    </context>
-  </template>
   <template name="initsection" value="&lt;section class=&quot;c-$class$&quot;&gt;&#10;  &lt;div class=&quot;c-$class$__inner&quot;&gt;&#10;    $next$&#10;  &lt;/div&gt;&#10;&lt;/section&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="next" expression="" defaultValue="" alwaysStopAt="true" />
@@ -96,7 +93,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="else" value="{% else %}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="else" value="{%- else -%}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
@@ -109,6 +106,12 @@
   </template>
   <template name="increment" value="{% increment $var$ %}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="elsif" value="{%- elsif $argument$ -%}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="argument" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
