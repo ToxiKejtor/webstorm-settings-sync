@@ -1,12 +1,8 @@
 <application>
   <component name="LanguageInjectionConfiguration">
-    <injection language="HTML" injector-id="js">
-      <display-name>HTML in JS strings</display-name>
-      <place disabled="true">isHtmlLikeText()</place>
-    </injection>
     <injection language="IgnoreLang" injector-id="js">
       <display-name>HTML in JS strings</display-name>
-      <place disabled="true">isHtmlLikeText()</place>
+      <place><![CDATA[isHtmlLikeText()]]></place>
     </injection>
   </component>
 </application>
