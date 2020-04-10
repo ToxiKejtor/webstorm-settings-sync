@@ -12,6 +12,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".env.live" type="PLAIN_TEXT" />
       <mapping pattern="account-add-address" type="PLAIN_TEXT" />
+      <mapping ext="ank" type="PLAIN_TEXT" />
       <mapping ext="com-error_log" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="liquid" type="Twig" />
