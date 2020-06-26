@@ -1,5 +1,4 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
-  <action id="$Paste" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta #10000a7" />
@@ -26,6 +25,9 @@
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
   </action>
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
