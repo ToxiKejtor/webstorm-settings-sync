@@ -39,4 +39,20 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="forof" value="for (let $item$ of $arr$) {&#10;  $content$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="forin" value="for (let $property$ in $object$) {&#10;  $content$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
