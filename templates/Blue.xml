@@ -1,0 +1,17 @@
+<templateSet group="Blue">
+  <template name="bluefunction" value="import { $imports$ } from '@shopify/polaris';&#10;&#10;export default function(props) {&#10;  const handleChange = (key, value) =&gt; {&#10;    props.onChangeValue(key, value);&#10;  };&#10;  return (&#10;    &lt;div&gt;&#10;      $components$&#10;    &lt;/div&gt;&#10;  );&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="imports" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="components" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="blueclass" value="import { $imports$ } from '@shopify/polaris';&#10;&#10;class $name$ extends React.Component {&#10;  &#10;  state = {&#10;  }&#10;  &#10;  handleChange = (key, value) =&gt; {&#10;    this.props.onChangeValue(key, value);&#10;  };&#10;&#10;  render() {&#10;    return (&#10;      &lt;div&gt;$components$&lt;/div&gt;&#10;    );&#10;  }&#10;}&#10;&#10;export default $name$;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="imports" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="components" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

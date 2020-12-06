@@ -1,0 +1,15 @@
+<templateSet group="Twig">
+  <template name="path" value="{{ assetPath('images/$path$') }}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="set" value="{% set $var$ = $something$ %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="something" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
