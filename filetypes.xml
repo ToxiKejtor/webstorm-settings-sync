@@ -1,24 +1,22 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
-      <removed_mapping ext="css" approved="true" type="CSS" />
       <mapping pattern=".huskyrc" type="JSON" />
       <mapping pattern="ProcessStory" type="JavaScript" />
       <mapping ext="php" type="PHP" />
-      <mapping pattern=".keep" type="PLAIN_TEXT" />
-      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
-      <mapping pattern="faq-indicators.js" type="PLAIN_TEXT" />
-      <mapping pattern="pdp-purchase-form--filters.liquid" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".env.live" type="PLAIN_TEXT" />
       <mapping pattern="account-add-address" type="PLAIN_TEXT" />
+      <mapping pattern="pdp-purchase-form--filters.liquid" type="PLAIN_TEXT" />
+      <mapping pattern=".env.live" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern="faq-indicators.js" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
-      <mapping ext="ank" type="PLAIN_TEXT" />
       <mapping ext="com-error_log" type="PLAIN_TEXT" />
+      <mapping ext="ank" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
-      <mapping ext="liquid" type="Twig" />
       <removed_mapping ext="css" approved="true" type="CSS" />
       <removed_mapping pattern=".css" approved="true" type="CSS" />
+      <mapping ext="liquid" type="Twig" />
     </extensionMap>
   </component>
 </application>
