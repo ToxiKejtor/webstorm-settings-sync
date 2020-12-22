@@ -160,4 +160,7 @@
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="one.util.ideaplugin.screenshoter.SaveImageAction">
+    <keyboard-shortcut first-keystroke="ctrl meta alt s" />
+  </action>
 </keymap>
