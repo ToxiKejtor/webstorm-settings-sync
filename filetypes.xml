@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <removed_mapping ext="css" approved="true" type="CSS" />
+      <removed_mapping ext="http" type="HTTP Request" />
       <mapping pattern=".huskyrc" type="JSON" />
       <mapping pattern="ProcessStory" type="JavaScript" />
       <mapping ext="php" type="PHP" />
@@ -15,10 +16,12 @@
       <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="ank" type="PLAIN_TEXT" />
       <mapping ext="com-error_log" type="PLAIN_TEXT" />
+      <mapping ext="http" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="liquid" type="Twig" />
       <removed_mapping ext="css" approved="true" type="CSS" />
       <removed_mapping pattern=".css" approved="true" type="CSS" />
+      <removed_mapping ext="http" type="HTTP Request" />
     </extensionMap>
   </component>
 </application>
