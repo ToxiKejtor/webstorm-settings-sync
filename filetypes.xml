@@ -5,6 +5,7 @@
       <mapping pattern=".huskyrc" type="JSON" />
       <mapping pattern="ProcessStory" type="JavaScript" />
       <mapping ext="php" type="PHP" />
+      <mapping pattern=".buildpacks" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
       <mapping pattern="faq-indicators.js" type="PLAIN_TEXT" />
