@@ -17,6 +17,7 @@
       <mapping ext="ank" type="PLAIN_TEXT" />
       <mapping ext="com-error_log" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="liquid" type="Twig" />
       <removed_mapping ext="css" approved="true" type="CSS" />
       <removed_mapping pattern=".css" approved="true" type="CSS" />
