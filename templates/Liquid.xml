@@ -116,7 +116,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="media" value="  @media only screen and ($breakpoint$) {&#10;   &#10;  }" toReformat="false" toShortenFQNames="true">
+  <template name="media" value="  @media only screen and ($breakpoint$) {&#10;   &#10;  }" description="" toReformat="false" toShortenFQNames="true">
     <variable name="breakpoint" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
