@@ -8,15 +8,6 @@
     </value>
   </option>
   <option name="RIGHT_MARGIN" value="100" />
-  <option name="HTML_ATTRIBUTE_WRAP" value="4" />
-  <option name="HTML_TEXT_WRAP" value="0" />
-  <option name="HTML_KEEP_BLANK_LINES" value="1" />
-  <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
-  <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,a" />
-  <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
-  <option name="HTML_KEEP_WHITESPACES_INSIDE" value="pre,textarea" />
-  <option name="HTML_INLINE_ELEMENTS" value="abbr,acronym,b,basefont,bdo,big,br,cite,cite,code,dfn,em,font,i,kbd,q,s,samp,strike,strong,sub,sup,tt,u,var" />
-  <option name="HTML_ENFORCE_QUOTES" value="true" />
   <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
@@ -34,7 +25,7 @@
     <option name="HTML_INLINE_ELEMENTS" value="abbr,acronym,b,basefont,bdo,big,br,cite,cite,code,dfn,em,font,i,kbd,q,s,samp,strike,strong,sub,sup,tt,u,var" />
     <option name="HTML_ENFORCE_QUOTES" value="true" />
   </HTMLCodeStyleSettings>
-  <JSCodeStyleSettings>
+  <JSCodeStyleSettings version="0">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
@@ -58,7 +49,7 @@
   <SqlCodeStyleSettings>
     <option name="WRAP_INSIDE_SELECT" value="5" />
   </SqlCodeStyleSettings>
-  <TypeScriptCodeStyleSettings>
+  <TypeScriptCodeStyleSettings version="0">
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
@@ -203,13 +194,6 @@
   <codeStyleSettings language="Stylus">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="Twig">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>

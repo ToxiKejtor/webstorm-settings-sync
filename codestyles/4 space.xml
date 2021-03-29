@@ -1,25 +1,10 @@
-<code_scheme name="4 space">
+<code_scheme name="4 space" version="173">
   <option name="OTHER_INDENT_OPTIONS">
     <value>
-      <option name="INDENT_SIZE" value="4" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="4" />
-      <option name="USE_TAB_CHARACTER" value="false" />
-      <option name="SMART_TABS" value="false" />
-      <option name="LABEL_INDENT_SIZE" value="0" />
-      <option name="LABEL_INDENT_ABSOLUTE" value="false" />
-      <option name="USE_RELATIVE_INDENTS" value="false" />
     </value>
   </option>
   <option name="RIGHT_MARGIN" value="80" />
-  <option name="HTML_ATTRIBUTE_WRAP" value="0" />
-  <option name="HTML_TEXT_WRAP" value="0" />
-  <option name="HTML_KEEP_LINE_BREAKS" value="false" />
-  <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
-  <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
-  <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,li,section" />
-  <option name="HTML_ELEMENTS_TO_REMOVE_NEW_LINE_BEFORE" value="" />
-  <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
   <MarkdownNavigatorCodeStyleSettings>
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
@@ -89,11 +74,6 @@
   <codeStyleSettings language="Stylus">
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-    </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="Twig">
-    <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
