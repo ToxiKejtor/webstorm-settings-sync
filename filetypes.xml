@@ -19,7 +19,6 @@
       <mapping ext="liquid" type="Twig" />
       <removed_mapping ext="css" approved="true" type="CSS" />
       <removed_mapping pattern=".css" approved="true" type="CSS" />
-      <mapping ext="liquid" type="Twig" />
     </extensionMap>
   </component>
 </application>
