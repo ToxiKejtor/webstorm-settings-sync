@@ -1,0 +1,7 @@
+<templateSet group="dada">
+  <template name="dada" value="&lt;h1&gt;dada&lt;/h1&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
