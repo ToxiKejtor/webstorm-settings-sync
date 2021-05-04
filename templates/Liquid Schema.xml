@@ -36,7 +36,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="schemaempty" value="{% schema %}&#10;{&#10;  &quot;name&quot;: &quot;$name$&quot;,&#10;  &quot;settings&quot;: [&#10;  ],&#10;  &quot;blocks&quot;: [&#10;&#9;  {&#10;&#9;  &#9;&quot;type&quot;: &quot;block-name&quot;,&#10;&#9;&#9;&#9;&quot;name&quot;: &quot;Block Name&quot;,&#10;&#9;&#9;&#9;&quot;settings&quot;: [&#10;&#9;&#9;&#9;]&#10;&#9;&#9;}&#10;  ],&#10;  &quot;presets&quot;: [&#10;    {&#10;      &quot;category&quot;: &quot;&quot;,&#10;      &quot;name&quot;: &quot;$name$&quot;&#10;    }&#10;  ]&#10;}&#10;{% endschema %}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="schemaempty" value="{% schema %}&#10;{&#10;  &quot;name&quot;: &quot;$name$&quot;,&#10;  &quot;settings&quot;: [&#10;  ],&#10;  &quot;blocks&quot;: [&#10;&#9;  {&#10;&#9;  &#9;&quot;type&quot;: &quot;block&quot;,&#10;&#9;&#9;&#9;&quot;name&quot;: &quot;Block&quot;,&#10;&#9;&#9;&#9;&quot;settings&quot;: [&#10;&#9;&#9;&#9;]&#10;&#9;&#9;}&#10;  ],&#10;  &quot;presets&quot;: [&#10;    {&#10;      &quot;category&quot;: &quot;&quot;,&#10;      &quot;name&quot;: &quot;$name$&quot;&#10;    }&#10;  ]&#10;}&#10;{% endschema %}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSON" value="true" />

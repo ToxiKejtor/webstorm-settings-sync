@@ -4178,10 +4178,6 @@
           <option name="groupName" value="Vue" />
           <option name="key" value="vbase" />
         </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Handlebars" />
-          <option name="key" value="itar" />
-        </TemplateKey>
       </list>
     </option>
   </component>
