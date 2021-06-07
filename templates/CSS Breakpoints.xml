@@ -1,10 +1,4 @@
 <templateSet group="CSS Breakpoints">
-  <template name="lint" value="/* stylelint-disable */&#10;$content$&#10;/* stylelint-enable */" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
   <template name="mediamobile" value="@include media-query('mobile') {&#10;  $content$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -41,12 +35,6 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="mediatabletmax" value="@include media-query('tablet-max') {&#10;  $content$&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
   <template name="mediadesktop" value="@include media-query('desktop') {&#10;  $content$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -60,84 +48,6 @@
     </context>
   </template>
   <template name="mediadesktoplarge" value="@include media-query('desktop-large') {&#10;  $content$&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="large" value="@media(--large) {&#10;  $content$&#10;}" description="@media" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="medium" value="@media(--medium) {&#10;  $content$&#10;}" description="@media" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="small" value="@media(--small) {&#10;  $content$&#10;}" description="@media" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="largedown" value="@media(--large-down) {&#10;  $content$&#10;}" description="@media" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="mediumdown" value="@media(--medium-down) {&#10;  $content$&#10;}" description="@media" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="smalldown" value="@media(--small-down) {&#10;  $content$&#10;}" description="@media" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="xlarge" value="@media(--xlarge) {&#10;  $content$&#10;}" description="@media" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="full" value="@media(--full) {&#10;  $content$&#10;}" description="@media" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="fulldown" value="@media(--full-down) {&#10;  $content$&#10;}" description="@media" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="xlargedown" value="@media(--xlarge-down) {&#10;  $content$&#10;}" description="@media" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="bplarge" value="@include bp(large) {&#10;  $content$&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="bpmedium" value="@include bp(medium) {&#10;  $content$&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="bpsmall" value="@include bp(small) {&#10;  $content$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
