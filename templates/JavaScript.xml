@@ -1,0 +1,15 @@
+<templateSet group="JavaScript">
+  <template name="switch" value="switch ($0$) {&#10;  case '$1$':&#10;    $content1$&#10;    break;&#10;  case '$2$':&#10;    $content2$&#10;    break;&#10;  default:&#10;    $content3$&#10;    $3$&#10;}" description="switch statement template" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
