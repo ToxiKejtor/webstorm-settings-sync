@@ -1,0 +1,162 @@
+<templateSet group="CSS Media">
+  <template name="mediamobile" value="@media (min-width: 320px) {&#10;  $content$&#10;}" description="above 320px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediamobilemedium" value="@media (min-width: 480px) {&#10;  $content$&#10;}" description="above 480px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediamobilelarge" value="@media (min-width: 640px) {&#10;  $content$&#10;}" description="above 640px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediatablet" value="@media (min-width: 768px) {&#10;  $content$&#10;}" description="above 768px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediatabletlarge" value="@media (min-width: 1024px) {&#10;  $content$&#10;}" description="above 1024px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediadesktop" value="@media (min-width: 1280px) {&#10;  $content$&#10;}" description="above 1280px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediadesktoplarge" value="@media (min-width: 1440px) {&#10;  $content$&#10;}" description="above 1440px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediawidescreen" value="@media (min-width: 1680px) {&#10;  $content$&#10;}" description="above 1680px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediabelowmobile" value="@media (max-width: 319px) {&#10;  $content$&#10;}" description="below 319px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediabelowmobilemedium" value="@media (max-width: 479px) {&#10;  $content$&#10;}" description="below 479px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediabelowmobilelarge" value="@media (max-width: 639px) {&#10;  $content$&#10;}" description="below 639px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediabelowtablet" value="@media (max-width: 767px) {&#10;  $content$&#10;}" description="below 767px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediabelowtabletlarge" value="@media (max-width: 1023px) {&#10;  $content$&#10;}" description="below 1023px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediabelowdesktop" value="@media (max-width: 1279px) {&#10;  $content$&#10;}" description="below 1279px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediabelowdesktoplarge" value="@media (max-width: 1439px) {&#10;  $content$&#10;}" description="below 1439px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="mediabelowwidescreen" value="@media (max-width: 1679px) {&#10;  $content$&#10;}" description="below 1679px" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
