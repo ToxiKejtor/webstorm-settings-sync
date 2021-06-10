@@ -1,7 +1,8 @@
 <templateSet group="Liquid Schema">
-  <template name="schemaarticle" value="{&#10;   &quot;type&quot;: &quot;article&quot;,&#10;   &quot;id&quot;: &quot;article&quot;,&#10;   &quot;label&quot;: &quot;Select Article&quot;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="schemaarticle" value="{&#10;   &quot;type&quot;: &quot;article&quot;,&#10;   &quot;id&quot;: &quot;article&quot;,&#10;   &quot;label&quot;: &quot;Select Article&quot;&#10;}" description="schema article" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -9,30 +10,35 @@
     <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemablog" value="{&#10;   &quot;type&quot;: &quot;blog&quot;,&#10;   &quot;id&quot;: &quot;blog&quot;,&#10;   &quot;label&quot;: &quot;Select Blog&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemacheckbox" value="{&#10;   &quot;type&quot;: &quot;checkbox&quot;,&#10;   &quot;id&quot;: &quot;checkbox&quot;,&#10;   &quot;label&quot;: &quot;Enable&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemacollection" value="{&#10;   &quot;type&quot;: &quot;collection&quot;,&#10;   &quot;id&quot;: &quot;collection&quot;,&#10;   &quot;label&quot;: &quot;Select collection&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemacolor" value="{&#10;   &quot;type&quot;: &quot;color&quot;,&#10;   &quot;id&quot;: &quot;color&quot;,&#10;   &quot;label&quot;: &quot;Select color&quot;,&#10;   &quot;default&quot;: &quot;#ffffff&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -40,72 +46,84 @@
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemafontpicker" value="{&#10;    &quot;type&quot;: &quot;font_picker&quot;,&#10;    &quot;label&quot;: &quot;Heading font&quot;,&#10;    &quot;id&quot;: &quot;font_picker&quot;,&#10;    &quot;default&quot;: &quot;helvetica_n4&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemaheader" value="{&#10;  &quot;type&quot;: &quot;header&quot;,&#10;  &quot;content&quot;: &quot;Newsletter&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemahtml" value="{&#10;   &quot;type&quot;: &quot;html&quot;,&#10;   &quot;id&quot;: &quot;html&quot;,&#10;   &quot;label&quot;: &quot;Custom HTML&quot;,&#10;   &quot;default&quot;: &quot;&lt;div&gt;&lt;p&gt;Some HTML content&lt;/p&gt;&lt;/div&gt;&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemaimage" value="{&#10;  &quot;label&quot;: &quot;Image&quot;,&#10;  &quot;id&quot;: &quot;image&quot;,&#10;  &quot;type&quot;: &quot;image_picker&quot;,&#10;  &quot;info&quot;: &quot;Recommended image size is&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemalinklist" value="{&#10;   &quot;type&quot;: &quot;link_list&quot;,&#10;   &quot;id&quot;: &quot;link_list&quot;,&#10;   &quot;label&quot;: &quot;Main navigation&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemapage" value="{&#10;   &quot;type&quot;: &quot;page&quot;,&#10;   &quot;id&quot;: &quot;page&quot;,&#10;   &quot;label&quot;: &quot;Front page&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemaparagraph" value="{&#10;   &quot;type&quot;: &quot;paragraph&quot;,&#10;   &quot;content&quot;: &quot;Text&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemaproduct" value="{&#10;   &quot;type&quot;: &quot;product&quot;,&#10;   &quot;id&quot;: &quot;product&quot;,&#10;   &quot;label&quot;: &quot;Feature product&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemaradio" value="{&#10;   &quot;type&quot;: &quot;radio&quot;,&#10;   &quot;id&quot;: &quot;radio&quot;,&#10;   &quot;options&quot;: [&#10;      { &quot;value&quot;: &quot;none&quot;, &quot;label&quot;: &quot;None&quot;},&#10;      { &quot;value&quot;: &quot;light&quot;, &quot;label&quot;: &quot;Light&quot;},&#10;      { &quot;value&quot;: &quot;dark&quot;, &quot;label&quot;: &quot;Dark&quot;}&#10;   ],&#10;   &quot;label&quot;: &quot;Cart icon&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemarange" value="{&#10;    &quot;type&quot;: &quot;range&quot;,&#10;    &quot;id&quot;: &quot;range&quot;,&#10;    &quot;min&quot;: 12,&#10;    &quot;max&quot;: 18,&#10;    &quot;step&quot;: 1,&#10;    &quot;unit&quot;: &quot;px&quot;,&#10;    &quot;label&quot;: &quot;Font size&quot;,&#10;    &quot;default&quot;: 16&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemaselect" value="{&#10;   &quot;type&quot;: &quot;select&quot;,&#10;   &quot;id&quot;: &quot;select&quot;,&#10;   &quot;options&quot;: [&#10;      { &quot;value&quot;: &quot;8&quot;, &quot;label&quot;: &quot;8 Products&quot;},&#10;      { &quot;value&quot;: &quot;12&quot;, &quot;label&quot;: &quot;12 Products&quot;},&#10;      { &quot;value&quot;: &quot;16&quot;, &quot;label&quot;: &quot;16 Products&quot;}&#10;   ],&#10;   &quot;label&quot;: &quot;Products per page&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -113,6 +131,7 @@
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -121,6 +140,7 @@
     <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -129,18 +149,21 @@
     <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemaurl" value="{&#10;  &quot;id&quot;: &quot;url&quot;,&#10;  &quot;type&quot;: &quot;url&quot;,&#10;  &quot;label&quot;: &quot;Select url&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="schemavideourl" value="{&#10;   &quot;id&quot;: &quot;video_url&quot;,&#10;   &quot;type&quot;: &quot;video_url&quot;,&#10;   &quot;label&quot;: &quot;Video URL&quot;,&#10;   &quot;accept&quot;: [&quot;youtube&quot;, &quot;vimeo&quot;],&#10;   &quot;default&quot;: &quot;https://www.youtube.com/watch?v=_9VUPq3SxOc&quot;&#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -149,6 +172,7 @@
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSON" value="true" />
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>

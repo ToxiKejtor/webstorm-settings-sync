@@ -2,6 +2,7 @@
   <template name="comment" value="{% comment %}&#10;$content$&#10;{% endcomment %}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -10,6 +11,7 @@
     <variable name="els" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -17,6 +19,7 @@
     <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -31,12 +34,14 @@
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="capture" value="{%- capture $el$ -%}&#10;{{ $el$ }}&#10;{%- endcapture -%}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="el" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -46,27 +51,20 @@
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="Twig" value="true" />
-    </context>
-  </template>
-  <template name="includebutton" value="{%- assign buttonUrl = section.settings.buttonUrl -%}&#10;    {%- assign buttonText = section.settings.buttonTitle -%}&#10;    {%- assign buttonClasses = '' -%}&#10;    {% include 'button' %}" description="" toReformat="false" toShortenFQNames="true">
-    <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="img" value="&lt;img src=&quot;&quot; class=&quot;&quot; alt=&quot;&quot;&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="Twig" value="true" />
-    </context>
-  </template>
-  <template name="includemodalstandard" value="{%- assign modalData = 'c-modal--homeLearn' -%}&#10;  {%- assign modalImage = section.settings.modalImage | img_url: '300x300' -%}&#10;  {%- assign modalTitle = section.settings.modalTitle -%}&#10;  {%- assign modalDescription = section.settings.modalContent -%}&#10;  {%- assign modalButtonUrl = section.settings.modalButtonUrl -%}&#10;  {%- assign modalButtonTitle = section.settings.modalButtonTitle -%}&#10;  {% include 'modal-standard' %}" description="" toReformat="false" toShortenFQNames="true">
-    <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="include" value="{% include '$snippet$' %}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="snippet" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -74,6 +72,7 @@
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="next" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -83,6 +82,7 @@
     <variable name="case2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="case3" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -90,29 +90,34 @@
     <variable name="element" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="number" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="else" value="{%- else -%}" description="" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="render" value="{% render '$snippet$' %}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="snippet" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="increment" value="{% increment $var$ %}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="elsif" value="{%- elsif $argument$ -%}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="argument" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
@@ -120,6 +125,13 @@
     <variable name="breakpoint" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
+      <option name="LIQUID" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="break" value="{% break %}&#10;$END$" description="break tag" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="LIQUID" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
