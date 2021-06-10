@@ -135,7 +135,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="commenthtml" value="&lt;!--$comment$--&gt;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="com" value="&lt;!--$comment$--&gt;" description="html comment" toReformat="false" toShortenFQNames="true">
     <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="LIQUID" value="true" />
