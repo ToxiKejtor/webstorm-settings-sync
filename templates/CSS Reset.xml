@@ -1,0 +1,12 @@
+<templateSet group="CSS Reset">
+  <template name="resettext" value="color: inherit;&#10;font-family: inherit;&#10;margin: 0;&#10;padding: 0;&#10;font-size: 16px;&#10;font-weight: 400;&#10;line-height: normal;&#10;font-style: normal;" description="reset text css" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="resetlink" value="color: inherit;&#10;font-family: inherit;&#10;margin: 0;&#10;padding: 0;&#10;font-size: 16px;&#10;font-weight: 400;&#10;line-height: normal;&#10;font-style: normal;&#10;text-decoration: none;&#10;  &amp;:hover {&#10;    color: inherit;&#10;    text-decoration: none;&#10;  }" description="reset link css" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
