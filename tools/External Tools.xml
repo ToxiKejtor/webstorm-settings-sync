@@ -2,7 +2,7 @@
   <tool name="copyfiles" description="copyfiles snippets" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$ProjectFileDir$/node_modules/.bin/copyfiles" />
-      <option name="PARAMETERS" value="$FileName$ $ContentRoot$/compiled/$FileName$ out" />
+      <option name="PARAMETERS" value="$FileName$ $ContentRoot$/compiled out" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
