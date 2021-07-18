@@ -6,6 +6,7 @@
       <mapping pattern=".huskyrc" type="JSON" />
       <mapping pattern="ProcessStory" type="JavaScript" />
       <mapping ext="php" type="PHP" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern="account-add-address" type="PLAIN_TEXT" />
       <mapping pattern="pdp-purchase-form--filters.liquid" type="PLAIN_TEXT" />
       <mapping pattern=".env.live" type="PLAIN_TEXT" />
